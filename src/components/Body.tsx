@@ -1,5 +1,4 @@
 import { Container, Row, Col, Spinner } from "react-bootstrap";
-import Footer from "./Footer";
 
 interface MyProps {
   displayData: any;
