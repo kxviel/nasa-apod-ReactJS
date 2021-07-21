@@ -1,0 +1,73 @@
+// Fonts and Defaults ============================
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #fdd2bf;
+}
+
+// Navbar ========================================
+.navbar-root {
+  background-color: #fdd2bf;
+  height: 12vh;
+  button {
+    height: 100%;
+    color: azure;
+    border: none;
+    background-color: #ff6767;
+    border-radius: 5px;
+    &:hover {
+      background-color: #ff3d68;
+    }
+  }
+  .brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      height: 49px;
+      width: 49px;
+      margin-right: 7px;
+    }
+    .title {
+      padding: 0;
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.3rem;
+    }
+    .title:hover {
+      color: #ff3d68;
+    }
+  }
+}
+
+// Body ============================================
+.body-root {
+  background-color: #fdd2bf;
+  height: 100%;
+  .image-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      object-fit: cover;
+      height: 95%;
+      width: 95%;
+      border-radius: 7px;
+    }
+  }
+}
+
+// Misc ============================================
+.error-div {
+  width: 100%;
+  font-size: 0.875em;
+  color: #dc3545;
+}
