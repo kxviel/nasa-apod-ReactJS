@@ -3,7 +3,6 @@ import Body from "./components/Body";
 import "./styles/Mainstyles.scss";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Footer from "./components/Footer";
 
 function App() {
   const today = new Date().toISOString().substr(0, 10);
