@@ -7,12 +7,13 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  background-color: #fdd2bf;
-}
+  background-color: #2c394b;
 
-// Navbar ========================================
-.navbar-root {
-  background-color: #fdd2bf;
+  // Navbar ========================================
+  .navbar-root {
+    background-color: #2c394b;
+    color: #fdefef;
+  }
   height: 12vh;
   button {
     height: 100%;
@@ -36,6 +37,8 @@ body {
     }
     .title {
       padding: 0;
+      color: #fdefef;
+
       margin: 0;
       font-weight: 500;
       font-size: 1.3rem;
@@ -48,7 +51,8 @@ body {
 
 // Body ============================================
 .body-root {
-  background-color: #fdd2bf;
+  background-color: #2c394b;
+  color: #fdefef;
   height: 100%;
   .image-col {
     width: 100%;
